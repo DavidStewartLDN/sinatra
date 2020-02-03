@@ -37,4 +37,5 @@ get '/named-cat' do
   @name = params[:name]
   @friend = ["Clark", "Cat", "MY NAME JEFF"].sample
   erb(:index)
+  
  end
